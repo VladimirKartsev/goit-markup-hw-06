@@ -370,7 +370,26 @@
           <svg class="modal-svg"  width="8" height="8">
             <use href="./images/sprite.svg#icon-Close-Modal"></use>
           </svg></button>
-          <!-- <p class="modal-title">Leave your contacts and we will call you back</p> -->
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <form class="modal-form">
+            <p class="name-form">Name</p>
+            <input type="text" 
+            class="contact-form-input" required minlength="2">
+            <p class="name-form">Phone</p>
+            <input type="tel" class="contact-form-input"required>
+            <p class="name-form">Email</p>
+            <input type="email" class="contact-form-input">
+            <p class="name-form">Comment</p>
+            <textarea class="contact-form-input-comment"></textarea>
+            <div class="">
+              <label for=""></label>
+              <input type="checkbox" class="" value="accept Privacy Policy"
+              <p class="accept-form">I accept the terms and conditions of the Privacy Policy</div>
+            </div>
+            <button type="submit" class="btn-forma-modal">Sent</button>
+
+             
+          </form>
       </div> 
     </div>
     <script src="./js/modal.js"></script>
