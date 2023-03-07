@@ -679,6 +679,7 @@ ol {
 
 .footer-input {
   box-sizing: border-box;
+  color: #ffffff;
   background-color: #2e2f42;
   width: 264px;
   border: 1px solid #ffffff;
@@ -688,7 +689,6 @@ ol {
   font-size: 12px;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
   outline: none;
   padding-left: 16px;
 }
