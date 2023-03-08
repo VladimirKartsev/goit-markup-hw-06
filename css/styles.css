@@ -352,13 +352,12 @@ ol {
 }
 .modal-form-check:checked + .accept-form::before {
   background-color: var(--color_iris);
-  background-image: url(/images/fly.svg);
+  background-image: url(../images/fly.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   background-origin: content-box;
 }
-
 --- ------Main section------------------------------ .hero {
   background-color: var(--color_navy-blue);
 }
